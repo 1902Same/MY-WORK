@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+
+<body>
+    <form action="#" onsubmit="cal()">
+        <input type="number" id="input">
+        <br>
+        <p id="show"></p>
+        <button>Show Grade</button>
+    </form>
+</body>
+<script>
+    function cal() {
+        let res = document.getElementById("input").value;
+        if (res = 80) {
+            document.getElementById("show").innerText = "A+";
+        }
+    }
+</script>
+
+</html>
